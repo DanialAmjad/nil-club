@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "esnext",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "allowJs": true,
+  },
+  "include": [
+    "apps/**",
+    "packages/**",
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".next",
+    "build",
+    ".expo"
+  ]
+}

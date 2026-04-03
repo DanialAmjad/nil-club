@@ -1,0 +1,28 @@
+{
+  "name": "@nil-club/api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "hono": "^4.1.13",
+    "zod": "^3.22.4",
+    "@nil-club/database": "workspace:*",
+    "@neondatabase/serverless": "^0.9.2",
+    "drizzle-orm": "^0.30.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "eslint": "^8",
+    "eslint-config-next": "^16.0.0"
+  }
+}
